@@ -35,7 +35,11 @@ int queue (fila_t* f, int elemento)
 		f->cauda++;										    	
 		return 1;
 	}
-}
+}    /* coloque o codigo desta funcao aqui */
+    fila_t *f = malloc(sizeof(fila_t));
+    if (f == NULL)
+	        return NULL;
+    
 
 int dequeue (fila_t* f, int* elemento)
 {
