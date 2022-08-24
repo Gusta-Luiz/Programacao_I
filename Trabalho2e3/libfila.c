@@ -5,7 +5,7 @@
 fila_t * cria_fila ()
 {
     /* Cria a struct fila e testa o malloc */
-    fila_t *f = (fila_t *) malloc (sizeof (fila_t));
+    fila_t *f = (fila_t *) malloc(sizeof (fila_t));
     if (f == NULL) 
         return NULL;
     /* Inicializa os elementos da struct */
